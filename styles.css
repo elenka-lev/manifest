@@ -135,6 +135,7 @@ header {
     padding-bottom: 20px;
     cursor: pointer;
     z-index: 2;
+    transition: all 0.3s ease;
 } 
 .span {
     width: 34px;
@@ -169,11 +170,11 @@ header {
     transition: right 0.3s ease;
     z-index: 1;
     padding: 80px 20px;
-
 }
 
 .active-nav {
     right: 0;
+    transition: all 0.3s ease;
 }
 h1 {
     font-weight: 600;
